@@ -1,38 +1,99 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+p {
+  font-family: 'Oswald';
+}
+
+h1, h2 {
+  font-family: 'Space Grotesk';
+}
+
+li {
+  font-family: 'EB Garamond';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Resume {
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  height: 850px;
+}
+
+.Header {
+  border: 1px;
+  border-style: solid;
+  border-color: #338078;
+  height: 130px;
+  background: #338078;
+  font-family: Cambria;
   text-align: center;
+  color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 700px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.PInfo {
+  flex: 1;
+  height: 712px;
+  background: lightgray;
+  padding-right: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Contact_h1{
+  text-align: right;
+  margin-bottom: -15px;
+}
+
+.Contact_p{
+  text-align: right;
+}
+
+.Education_h1{
+  text-align: right;
+  margin-bottom: -15px;
+}
+
+.Education_p{
+  text-align: right;
+}
+
+.Skills_h1{
+  text-align: right;
+  margin-bottom: -15px;
+}
+
+.Skills_p{
+  text-align: right;
+}
+
+.Experience {
+  flex: 2;
+  background: lightgray;
+  height: 712px;
+  margin-left: 40px;
+}
+
+.LExp {
+  margin-left: 20px;
+}
+
+.LExp1_p > ul > li {
+  text-align: justify;
 }
