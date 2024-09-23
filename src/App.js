@@ -95,7 +95,7 @@ function Header() {
   return (
     <div>
       <h1>ERNZ DANIELLE MANALO</h1>
-      <h2>FUTURE FULL-STACK DEVELOPER</h2>
+      <h2>FUTURE FULL-STACK DEVELOPER!!!</h2>
     </div>
   );
 }
