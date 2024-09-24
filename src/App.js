@@ -95,7 +95,7 @@ function Header() {
   return (
     <div>
       <h1>ERNZ DANIELLE MANALO</h1>
-      <h2>FUTURE FULL-STACK DEVELOPER</h2>
+      <h2>FULL-STACK DEVELOPER</h2>
     </div>
   );
 }
@@ -160,13 +160,13 @@ function Skills_p() {
 
 function LExp0_h1() {
   return(
-    <h1>LEARNING EXPERIENCE</h1>
+    <h1>WORK EXPERIENCE</h1>
   );
 }
 
 function LExp1_h2() {
   return(
-    <h2>1st Year College</h2>
+    <h2>Web Development Intern</h2>
   );
 }
 
@@ -175,13 +175,14 @@ function LExp1_p() {
     return(
       <div>
         <p>
-          Python, Kivvy, Tkinter <br /> 2022-2023
+        Tech Innovators<br /> June 2025 – December 2026
         </p>
         <ul>
           <li>
-            During my 1st Year, I was taught the basics and the knowledge of programming. <br />
-            We were taught how to do basic Python commands, basic data types, operators, and control structures. <br />
-            We also created mobile games out Python.
+            Assisted the development team in creating small web applications using HTML, CSS, and JavaScript (jQuery) for internal tools.
+          </li>
+          <li>
+            Contributed to frontend UI enhancements and bug fixes for client-facing websites, improving overall performance.
           </li>
         </ul>
       </div>
@@ -190,7 +191,7 @@ function LExp1_p() {
 
 function LExp2_h2() {
   return(
-    <h2>2nd Year College</h2>
+    <h2>Junior Full-Stack Developer</h2>
   );
 }
 
@@ -198,15 +199,14 @@ function LExp2_p() {
   return(
     <div>
       <p>
-        MySQL, Java, JavaScript, HTML, CSS
+      Innovate Web Services<br /> January 2027 – May 2029
       </p>
       <ul>
         <li>
-          During my 2nd Year, I was taught the basics and the knowledge of MySQL. <br />
-          We are taught how to do basic input, query, and creation of Database. <br />
-          We were taught about foundation knowledge regarding Data Structures and Algorithm. <br />
-          It was also discussed about the basics of Java and JavaScript. <br />
-          We were also taught about the basics of HTML and CSS.
+        Developed and maintained web applications using Vue.js and Node.js, focusing on building clean and efficient code.
+        </li>
+        <li>
+        Integrated third-party APIs (Stripe, Firebase) into client applications to enhance functionality and improve business workflows.
         </li>
       </ul>
     </div>
@@ -216,7 +216,7 @@ function LExp2_p() {
 
 function LExp3_h2() {
   return(
-    <h2>Currently 3rd Year College</h2>
+    <h2>Full-Stack Developer</h2>
   );
 }
 
@@ -224,13 +224,14 @@ function LExp3_p() {
   return(
     <div>
       <p>
-        HTML, JavaScript, CSS, React, Bootstrap
+      Riot Games<br /> June 2029 – September 2035
       </p>
       <ul>
         <li>
-          During my 3rd Year, I am currently learning about the more in-depth understanding of HTML, JavaScript, and CSS. <br />
-          We are also currently learning about React. We were taught how to make a functional website that is apadtable and capable to adjust based on Screensize. <br />
-          We used Bootstrap in integrating and creating the website.
+        Spearheaded the development of cross-platform web applications using React.js, Node.js, and Express, ensuring optimal performance and seamless user experience.
+        </li>
+        <li>
+        Worked with databases like PostgreSQL and MongoDB to design and optimize data models for high-traffic applications.
         </li>
       </ul>
     </div>
